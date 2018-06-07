@@ -1,0 +1,35 @@
+{
+  "name": "typescriptlearning",
+  "version": "1.0.0",
+  "description": "TypeScript的基础知识学习！",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BraveHead/TypeScriptLearning.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BraveHead/TypeScriptLearning/issues"
+  },
+  "homepage": "https://github.com/BraveHead/TypeScriptLearning#readme",
+  "dependencies": {
+    "@types/react": "^16.3.16",
+    "@types/react-dom": "^16.0.6",
+    "react": "^16.4.0",
+    "react-dom": "^16.4.0"
+  },
+  "devDependencies": {
+    "awesome-typescript-loader": "^5.0.0",
+    "buffer-from": "^1.1.0",
+    "graceful-fs": "^4.1.11",
+    "has-flag": "^3.0.0",
+    "micromatch": "^3.1.10",
+    "mkdirp": "^0.5.1",
+    "source-map-loader": "^0.2.3",
+    "typescript": "^2.9.1"
+  }
+}
