@@ -8,7 +8,8 @@ var Student = /** @class */ (function () {
     return Student;
 }());
 function greeter(person) {
-    return "Hello, " + person.firstName + " " + person.lastName;
+    console.log(person);
+    return "Hello," + person.firstName + "," + person.lastName;
 }
-var user = new Student("Jane", "M.", "User");
+var user = new Student("Jane", "M", "san");
 document.body.innerHTML = greeter(user);
