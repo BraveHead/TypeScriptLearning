@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "commitmsg": "cmomitlint -E GIT_PARAMS",
+    "commitmsg": "commitlint -E GIT_PARAMS",
     "changelog": "standard-version"
   },
   "dependencies": {
